@@ -1,3 +1,10 @@
+/*
+Write a function that takes a single character input and determines whether it is:
+a lowercase letter (a–z),
+an uppercase letter (A–Z),
+or valid character
+*/
+
 import java.util.Scanner;
 
 public class caseCheck {

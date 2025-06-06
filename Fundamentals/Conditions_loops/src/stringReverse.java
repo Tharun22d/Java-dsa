@@ -1,3 +1,6 @@
+//Given a string , return its reverse.
+//You must not use built-in reverse methods (e.g., StringBuilder.reverse()).
+
 import java.util.Scanner;
 
 public class stringReverse {
