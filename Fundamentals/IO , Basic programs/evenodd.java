@@ -7,11 +7,15 @@ public class evenodd {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number :");
         int a = input.nextInt();
+        System.out.println(check(a));
+
+    }
+    static String check(int a){
         if (a%2 == 0){
-            System.out.print("Even");
+            return "Even";
         }
         else {
-            System.out.print("Odd");
+            return "Odd";
         }
     }
 }

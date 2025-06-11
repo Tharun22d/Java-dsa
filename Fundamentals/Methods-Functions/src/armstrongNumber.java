@@ -1,3 +1,5 @@
+//armstrong number between range
+
 import java.util.Scanner;
 
 public class armstrongNumber {

@@ -4,6 +4,9 @@ public class armstrong {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
+        System.out.println(check(num));
+    }
+    static String check(int num){
         int originalnumber = num;
         double sum = 0;
         int len = String.valueOf(num).length(); //length of the number
@@ -13,10 +16,10 @@ public class armstrong {
             num=num/10; // eliminates 3 then follows 15 in loop // eliminates 5 then 1
         }
         if (sum == originalnumber){
-            System.out.print("Armstrong number ");
+            return "Armstrong number ";
         }
         else {
-            System.out.print("Not an Armstong number");
+            return "Not an Armstong number";
         }
     }
 }
