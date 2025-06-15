@@ -15,7 +15,7 @@ The 2nd customer is the richest with a wealth of 10.  -- ouput
 package leetcode;
 import java.util.*;
 
-public class LeetCode4 {
+public class ArraySubAddition {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("enter the no of rows : ");

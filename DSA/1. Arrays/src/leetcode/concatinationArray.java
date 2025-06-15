@@ -13,7 +13,7 @@ Explanation: The array ans is formed as follows:
 
 import java.util.*;
 
-public class leetcode2 {
+public class concatinationArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int size = input.nextInt();

@@ -15,7 +15,7 @@ Kid 5, they will have 3 + 3 = 6 candies, which is greater or equal to the curren
 package leetcode;
 import java.util.*;
 
-public class LeetCode6 {
+public class GreatestCandies {
     public static void main(String[] args){
         //input arr , //input target
         Scanner input = new Scanner(System.in);

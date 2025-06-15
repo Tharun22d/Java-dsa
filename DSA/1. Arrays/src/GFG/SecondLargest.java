@@ -26,7 +26,7 @@ Optimal Approach :  Step 1 : Set 2 vairables largest , smallest to MIN.VALUE;
 
 import java.util.*;
 
-public class GFGArr1 {
+public class SecondLargest {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the size of the Array :  ");

@@ -17,7 +17,7 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Leetcode1 {
+public class PermutationArray {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int[] arr = new int[6];

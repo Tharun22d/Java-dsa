@@ -10,7 +10,7 @@ Explanation: Running sum is obtained as follows: [1, 1+2, 1+2+3, 1+2+3+4].
  */
 
 import java.util.*;
-public class leetCode3 {
+public class RunningSum {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Size of Array : ");
