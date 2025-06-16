@@ -1,3 +1,10 @@
+/*
+panagram - a number is a panagram if sentence contains at least one of every letter of the English alphabet.
+
+Input: sentence = "thequickbrownfoxjumpsoverthelazydog"
+Output: true
+ */
+
 package leetcode;
 
 import java.util.Scanner;
@@ -20,8 +27,8 @@ public class panagram {
             return false;
         }
 
-        for(char ch = 'a' ; ch<='z' ;ch++){
-            if(sentence.indexOf(ch) <0){  //check whether the values present in sentence
+        for(char ch = 'a' ; ch<='z' ;ch++){ //looping through a to z
+            if(sentence.indexOf(ch) <0){  //checking if a-z are missing in sentence , if the index is <0 they are not even present
                 return false;
             }
         }
