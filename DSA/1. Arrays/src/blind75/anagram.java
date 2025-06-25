@@ -12,7 +12,7 @@ Output: false
 package blind75;
 import java.util.*;
 
-public class anagram {]
+public class anagram {
     public boolean isAnagram(String s, String t) {
         char[] sarr = s.toCharArray(); //[r,a,c,e,c,a,r]
         char[] tarr = t.toCharArray(); //[c,a,r,r,a,c,e]

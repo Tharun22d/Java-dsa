@@ -1,6 +1,14 @@
 //rotate an array towards left
-//apprach - reverse the first half till the k , reverse the next half , revesse the whole arrau
-//apporach for right rotation - reverse the last till the k values , then the remining first half , then the whole array
+//apprach - reverse the first half till the k , reverse the next half , revesse the whole array
+
+/*
+    right rotation :
+    // Step 1: Reverse the entire array
+    // Step 2: Reverse the first k elements
+    // Step 3: Reverse the remaining n - k elements
+
+ */
+
 
 package GFG;
 
