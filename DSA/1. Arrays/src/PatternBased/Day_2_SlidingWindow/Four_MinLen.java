@@ -39,3 +39,25 @@ public class Four_MinLen {
         return (min == Integer.MAX_VALUE) ? 0 : min;
     }
 }
+//public static int kDistinctChars(int k, String str) {
+//    int left  = 0;
+//    int right = 0;
+//    int len = 0;
+//
+//    HashMap<Character, Integer> map = new HashMap<>();
+//    while(right<str.length()){
+//        map.put(str.charAt(right),map.getOrDefault(str.charAt(right),0)+1);
+//        while(map.size()>k){
+//            map.put(str.charAt(left),map.get(str.charAt(left))-1);
+//            if(map.get(str.charAt(left))==0){
+//                map.remove(str.charAt(left));
+//            }
+//            left++;
+//        }
+//        //only chekc the max length once its valid
+//        len = Math.max(len , right - left +1);
+//        right++;
+//    }
+//    return len;
+//
+//}
