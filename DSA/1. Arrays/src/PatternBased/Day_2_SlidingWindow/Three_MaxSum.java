@@ -7,7 +7,7 @@ Output: 700
 Explanation: arr3  + arr4 = 700, which is maximum.
 
 apporach : fixed Size Sliding windpw   - if condidion false : subtact the left and shrink left (l++) else if true : expand r and extend
-            initilaize l and r from 0 ;
+            initilaize l and r from 0 ;  for constant size sliding window the main condition (right - left +1 > or == )
             run r till the end of the loop
             check if it r-l +1 < k : if true r++
             if fase : subract left decrement the left value
