@@ -8,9 +8,9 @@ Output: 2
 
 
  */
-import java.util.*;
-package PatternBased.Day_3_PrefixSums;
 
+package PatternBased.Day_3_PrefixSums;
+import java.util.*;
 public class two_SubarraySumK {
     public int subarraySum(int[] nums, int k) {
         HashMap<Integer , Integer> map = new HashMap<>();

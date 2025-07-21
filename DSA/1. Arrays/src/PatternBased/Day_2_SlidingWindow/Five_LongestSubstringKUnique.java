@@ -22,10 +22,11 @@ apporach: use hashmap to store the character as put the frequency of the charact
 */
 
 
-import java.util.*;
+
 
 package PatternBased.Day_2_SlidingWindow;
 
+import java.util.*;
 public class Five_LongestSubstringKUnique {
     public int longestKSubstr(String s, int k) {
         // code here
