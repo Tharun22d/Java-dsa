@@ -1,4 +1,4 @@
-//rotate an array towards left
+    //rotate an array towards left
 //apprach - reverse the first half till the k , reverse the next half , revesse the whole array
 
 /*
