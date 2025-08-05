@@ -28,4 +28,7 @@ public class valid_PerfectSquare {
         }
         return false;
     }
+
+    public static class twoDimentional {
+    }
 }
